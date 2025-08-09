@@ -1,0 +1,6 @@
+npm run build
+git add .
+git commit -m "Update site"
+git push origin main
+
+npm run deploy

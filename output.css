@@ -281,6 +281,9 @@
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
   }
+  .rounded-br-\[100px\] {
+    border-bottom-right-radius: 100px;
+  }
   .rounded-br-\[200px\] {
     border-bottom-right-radius: 200px;
   }
@@ -324,8 +327,24 @@
     --tw-gradient-to: #000000;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
+  .to-\[\#042322\] {
+    --tw-gradient-to: #042322;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .to-\[\#B3E7E5\] {
     --tw-gradient-to: #B3E7E5;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-\[\#\] {
+    --tw-gradient-to: #;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-\[\#e6b3e7\] {
+    --tw-gradient-to: #e6b3e7;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-\[\#fb00ff\] {
+    --tw-gradient-to: #fb00ff;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .p-4 {
@@ -497,9 +516,34 @@
       gap: calc(var(--spacing) * 10);
     }
   }
+  .md\:rounded-tr-\[00px\] {
+    @media (width >= 48rem) {
+      border-top-right-radius: 00px;
+    }
+  }
+  .md\:rounded-tr-\[10px\] {
+    @media (width >= 48rem) {
+      border-top-right-radius: 10px;
+    }
+  }
+  .md\:rounded-tr-\[50px\] {
+    @media (width >= 48rem) {
+      border-top-right-radius: 50px;
+    }
+  }
   .md\:rounded-tr-\[90px\] {
     @media (width >= 48rem) {
       border-top-right-radius: 90px;
+    }
+  }
+  .md\:rounded-tr-\[100px\] {
+    @media (width >= 48rem) {
+      border-top-right-radius: 100px;
+    }
+  }
+  .md\:rounded-tr-\[200px\] {
+    @media (width >= 48rem) {
+      border-top-right-radius: 200px;
     }
   }
 }
