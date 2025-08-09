@@ -1,4 +1,11 @@
 {
+  "name": "my-tailwind-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./output.css --minify",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
     "tailwindcss": "^4.1.11"
