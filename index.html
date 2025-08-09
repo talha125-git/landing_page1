@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+
+    <title>Vexadoc Landing Page</title>
+    <!-- Link for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Link for icons -->
+
+
+    <!-- npx @tailwindcss/cli -i ./src/input.css -o output.css --watch -->
+
+</head>
+
+<body class="bg-gradient-to-r from-white to-[#B3E7E5]">
+    <!-- Hero -->
+    <section class=" w-full rounded-br-[200px] bg-[linear-gradient(135deg,#D0E4FD_0%,#F0F4F5_50%,#AFE3E2_100%)]">
+        <!-- Header -->
+        <nav class=" flex flex-col  justify-between p-4 pt-6 md:flex md:flex-row ">
+            <div class="flex gap-1 px-5">
+                <div class="w-6 h-6 bg-[#08797B] rounded-full mt-1"></div>
+                <span class="text-2xl font-bold text-[#032431]">Vezadoc</span>
+            </div>
+
+            <ul class="flex md:gap-10 space-x-2 font-semibold text-[#032431] px-3">
+                <li class="hover:underline transition duration-300 cursor-pointer">Find doctor</li>
+                <li class="hover:underline transition duration-300 cursor-pointer">About</li>
+                <li class="hover:underline transition duration-300 cursor-pointer">Contact</li>
+                <i class="bi bi-person    font-bold text-[15px] text-[#032431] cursor-pointer "></i>
+                <i class="bi bi-twitter-x font-bold text-[15px] text-[#032431] cursor-pointer "></i>
+            </ul>
+        </nav>
+
+        <!-- Home -->
+        <section class="flex flex-col md:flex-row items-center justify-between  flex-1">
+            <!-- Left -->
+            <div class="mt-10 pl-8">
+                <h1 class="text-4xl font-bold text-[#032431] ">
+                    Find, Book, and <br class="md:block hidden"> Consult the Best Doctors <br class="md:block hidden">
+                    Online
+                </h1>
+
+                <p class="mt-2">
+                    Search and book appointments with top-rated <br class="md:block hidden">
+                    doctors for a virtual consultation.
+                </p>
+
+
+                <div class="flex bg-white rounded-lg shadow max-w-md mt-3">
+                    <i class="bi bi-person-add text-gray-500 text-lg mt-[12px] pl-4"></i>
+                    <input type="text" placeholder="Search specialty"
+                        class="flex-1 px-1 py-3 focus:outline-none" />
+                    <button class="bg-[#078D7D] text-white px-6 hover:bg-[#4e8e88]">
+                        Book Appointment Now
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="mt-7 md:block hidden">
+                <img src="doctr-removebg-preview.png" alt="Doctors" class="w-[500px] rounded-br-[200px]" />
+            </div>
+        </section>
+    </section>
+
+    <!-- Works/Spacialites/ Doctors Section -->
+    <section class="">
+        <div class="bg-[radial-gradient(circle_at_top_right,#D9F3F4,white)] md:rounded-tr-[90px] rounded-t-[100px]">
+
+            <!-- how its works boxes  -->
+            <h1 class="text-3xl font-semibold  p-9 pl-16">How It Works</h1>
+            <div class="flex md:flex pb-5 flex-wrap gap-10 justify-center">
+
+                <div class="p-8 border border-[#078D7D] text-center bg-white rounded-xl  shadow-lg shadow-gray-500  ">
+                    <i class="bi bi-search text-4xl text-[#078D7D] font-bold"></i>
+                    <h2 class="mt-1 font-bold text-[20px]">Search</h2>
+                    <p class="text-gray-600">Find a specialist binsing <br>
+                        the search function
+                    </p>
+                </div>
+
+                <div class="p-8 border border-[#12dbc4] text-center bg-white rounded-xl  shadow-lg shadow-gray-500  ">
+                    <i class="bi bi-calendar3 text-4xl text-[#078D7D] font-bold"></i>
+                    <h2 class="mt-1 font-bold text-[20px]">Book Appointment</h2>
+                    <p class="text-gray-600">Choose a time alot that <br>
+                        fits your schedule
+                    </p>
+                </div>
+
+                <div class="p-8 border border-[#0db3a0] text-center bg-white rounded-xl  shadow-lg shadow-gray-500  ">
+                    <i class="bi bi-camera-video text-4xl text-[#078D7D] font-bold"></i>
+                    <h2 class="mt-1 font-bold text-[20px]">Consult</h2>
+                    <p class="text-gray-600">Start a virtual visit with <br>
+                        the doctor online
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Specialties -->
+            <h1 class="text-3xl font-semibold  p-9 pl-16">Featured Specialties</h1>
+            <div class="flex md:flex pb-5 flex-wrap gap-10 justify-center">
+
+                <div
+                    class="px-8 py-4 border border-[#078D7D] text-center bg-white rounded-xl cursor-pointer shadow-lg shadow-gray-500  ">
+                    <i class="bi bi-heart-fill text-4xl text-[#078D7D] font-bold"></i>
+                    <h2 class="mt-1 font-bold text-[20px]">Cardiology</h2>
+                </div>
+
+                <div
+                    class="px-8 py-4 border border-[#078D7D] text-center bg-white rounded-xl cursor-pointer shadow-lg shadow-gray-500  ">
+                    <i class="bi bi-plus-square text-4xl text-[#078D7D] font-bold"></i>
+                    <h2 class="mt-1 font-bold text-[20px]">Pediatrics</h2>
+                </div>
+
+                <div
+                    class="px-8 py-4 border border-[#078D7D] text-center bg-white rounded-xl cursor-pointer shadow-lg shadow-gray-500  ">
+                    <i class="bi bi-emoji-laughing text-4xl text-[#078D7D] font-bold"></i>
+                    <h2 class="mt-1 font-bold text-[20px]">Dermatology</h2>
+                </div>
+
+                <div
+                    class="px-8 py-4 border border-[#078D7D] text-center bg-white rounded-xl cursor-pointer shadow-lg shadow-gray-500  ">
+                    <i class="bi bi-heart-fill text-4xl text-[#078D7D] font-bold"></i>
+                    <h2 class="mt-1 font-bold text-[20px]">Nephrologist</h2>
+                </div>
+
+                <div
+                    class="px-8 py-4 border border-[#078D7D] text-center bg-white rounded-xl cursor-pointer shadow-lg shadow-gray-500  ">
+                    <i class="bi bi-arrow-right-short text-4xl text-[#078D7D] font-bold"></i>
+                    <h2 class="mt-1 font-bold text-[20px]">View ALL</h2>
+                </div>
+
+            </div>
+
+            <!-- Top Doctors -->
+            <h1 class="text-3xl font-semibold  p-9 pl-16">Top Doctors</h1>
+            <div class="flex md:flex pb-5 flex-wrap gap-10 justify-center">
+                <div
+                    class="p-8 border border-[#078D7D] text-center bg-white rounded-xl cursor-pointer shadow-lg shadow-gray-500">
+
+                    <div class="flex gap-2 ">
+                        <div>
+                            <img src="doctor.png" class="w-[70px] h-[70px]" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold ">
+                                Dr. Kathryn <br>
+                                Mueller
+                            </h3>
+                            <p class="text-gray-500">Specialst</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flex gap-2">
+                        <div class="flex text-yellow-400">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-gray-500">31</p>
+                    </div>
+
+                    <button class="px-5 py-2 bg-[#078D7D] text-white rounded-lg mt-2 w-full">Bool Now</button>
+                </div>
+
+                <div
+                    class="p-8 border border-[#078D7D] text-center bg-white rounded-xl cursor-pointer shadow-lg shadow-gray-500">
+
+                    <div class="flex gap-2 ">
+                        <div>
+                            <img src="doctor.png" class="w-[70px] h-[70px]" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold ">
+                                Dr. Ryan <br>
+                                Scoft
+                            </h3>
+                            <p class="text-gray-500">Specialst</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flex gap-2">
+                        <div class="flex text-yellow-400">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p class="text-gray-500">34</p>
+                    </div>
+
+                    <button class="px-5 py-2 bg-[#078D7D] text-white rounded-lg mt-2 w-full">Bool Now</button>
+                </div>
+
+                <div
+                    class="p-8 border border-[#078D7D] text-center bg-white rounded-xl cursor-pointer shadow-lg shadow-gray-500">
+
+                    <div class="flex gap-2 ">
+                        <div>
+                            <img src="doctor.png" class="w-[70px] h-[70px]" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold ">
+                                Dr. Laura <br>
+                                Rennett
+
+                            </h3>
+                            <p class="text-gray-500">Permatolog</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flex gap-2">
+                        <div class="flex text-yellow-400">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p class="text-gray-500">2.2</p>
+                    </div>
+
+                    <button class="px-5 py-2 bg-[#078D7D] text-white rounded-lg mt-2 w-full">Bool Now</button>
+                </div>
+
+                <div
+                    class="p-8 border border-[#078D7D] text-center bg-white rounded-xl cursor-pointer shadow-lg shadow-gray-500">
+
+                    <div class="flex gap-2 ">
+                        <div>
+                            <img src="doctor.png" class="w-[70px] h-[70px]" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold ">
+                                Dr. Jason <br>
+                                Reed
+
+                            </h3>
+                            <p class="text-gray-500">Audorogic</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flex gap-2">
+                        <div class="flex text-yellow-400">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-gray-500">9.8</p>
+                    </div>
+
+                    <button class="px-5 py-2 bg-[#078D7D] text-white rounded-lg mt-2 w-full">Bool Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
